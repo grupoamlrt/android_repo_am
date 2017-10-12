@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical"
+    tools:context="fiap.com.br.pointcred.LoginActivity">
+
+    <ImageView
+        android:id="@+id/img_Logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/logoapp_inicio"
+        app:srcCompat="@mipmap/ic_logo" />
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="@string/email_login"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorText" />
+
+    <EditText
+        android:id="@+id/et_Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:textColorHint="@color/colorText"
+        android:hint="@string/senha_login"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_Entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/colorText"
+        android:text="@string/entrar_login"
+        android:onClick="Entrar"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_NaoCadastrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:onClick="CriarConta"
+        android:textColor="@color/colorText"
+        android:text="@string/inscreva_se_no_pointcred_login" />
+
+    <TextView
+        android:id="@+id/tv_Sobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:onClick="Sobre"
+        android:text="@string/sobre_nos_login"
+        android:textColor="@color/colorText" />
+</RelativeLayout>

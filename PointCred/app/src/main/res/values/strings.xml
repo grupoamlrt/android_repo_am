@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">PointCred</string>
+    <string name="bem_vindo_inicio">Bem Vindo</string>
+    <string name="logoapp_inicio">LogoAPP</string>
+    <string name="experimente_agora_inicio">Experimente agora</string>
+    <string name="criar_uma_conta_inicio">Criar uma conta</string>
+    <string name="email_login">Email</string>
+    <string name="senha_login">Senha</string>
+    <string name="entrar_login">Entrar</string>
+    <string name="inscreva_se_no_pointcred_login">Inscreva-se no PointCred</string>
+    <string name="sobre_nos_login">Sobre nós</string>
+    <string name="endereco_Cadastro">Endereço</string>
+    <string name="cep_Cadastro">Cep</string>
+    <string name="estado_Cadastro">Estado</string>
+    <string name="cidade_Cadastro">Cidade</string>
+    <string name="numero_Cadastro">Número</string>
+    <string name="complemento_Cadastro">Complemento</string>
+    <string name="bairro_Cadastro">Bairro</string>
+    <string name="rua_Cadastro">Rua</string>
+
 </resources>
